@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.3'
 
+gem 'pg', '~> 1.4', '>= 1.4.1'
 gem 'activerecord', '5.2'
 gem 'json', '~> 2.6', '>= 2.6.2'
 gem 'nokogiri', '~> 1.13', '>= 1.13.7'
@@ -21,7 +22,6 @@ gem 'webrick', '~> 1.3', '>= 1.3.1'
 gem 'whenever', '~> 1.0.0'
 
 group :development do
-  gem 'pg', '~> 1.4', '>= 1.4.1'
   gem 'pry'
   gem 'shotgun'
 end
