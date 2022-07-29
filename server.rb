@@ -6,7 +6,6 @@ require 'nokogiri'
 require 'open-uri'
 require 'net/smtp'
 require 'json'
-require 'pry'
 
 db = Database.new
 

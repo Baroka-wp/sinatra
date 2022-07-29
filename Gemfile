@@ -20,8 +20,6 @@ gem 'sinatra-flash', '~> 0.3.0'
 gem 'thin'
 gem 'webrick', '~> 1.3', '>= 1.3.1'
 gem 'whenever', '~> 1.0.0'
+gem 'pry'
+gem 'shotgun'
 
-group :development do
-  gem 'pry'
-  gem 'shotgun'
-end
