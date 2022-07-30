@@ -1,6 +1,7 @@
+require 'dotenv/load'
+require 'net/smtp'
 require './config/database'
 require './helpers/mailer/mailer'
-require 'net/smtp'
 
 def job
   db = Database.new

@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require 'sinatra'
 require 'sinatra/flash'
+require 'dotenv/load'
 require './config/database'
 require 'nokogiri'
 require 'open-uri'

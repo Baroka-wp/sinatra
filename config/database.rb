@@ -1,8 +1,8 @@
 require 'pg'
 class Database
   def connect_db
-    con = PG.connect :host => 'ec2-107-22-122-106.compute-1.amazonaws.com', :dbname => 'd40dumovgahat', :user => 'ivdpyhkeyurlzw', :password => '24605adf18fc01b14dae269fc07638a58e97cb4a6e566327fb61286bf412c44e'
-    #con = PG.connect host: 'localhost', dbname: 'my_app', user: 'postgres'
+    con = PG.connect :host => 'ec2-107-22-122-106.compute-1.amazonaws.com', :dbname => 'd40dumovgahat', :user => 'ivdpyhkeyurlzw', :password => ENV['DATABASE_PWD']
+    #con = PG.connect host: 'localhost', dbname: 'my_app', user: ENV['PG_PWD']
   end
 
   def fables_data(conte_id)

@@ -22,4 +22,4 @@ gem 'webrick', '~> 1.3', '>= 1.3.1'
 gem 'whenever', '~> 1.0.0'
 gem 'pry'
 gem 'shotgun'
-
+gem 'dotenv', '~> 2.8', '>= 2.8.1'
